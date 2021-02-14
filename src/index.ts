@@ -1,0 +1,1 @@
+export { Cache as default } from './cache';

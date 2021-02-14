@@ -1,0 +1,23 @@
+{
+  "name": "next-build-cache",
+  "version": "1.0.0-a1",
+  "description": "Ultra simple file system based caching built for the next.js build process.",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "echo \"no test specified\"",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "cache",
+    "file",
+    "cache",
+    "nextjs"
+  ],
+  "author": "Erik Schake",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.27",
+    "typescript": "^4.1.5"
+  }
+}
