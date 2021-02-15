@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { ModifierFlags } from 'typescript';
 import { promisify } from 'util';
 
 const read = promisify(fs.readFile);
@@ -71,4 +70,8 @@ class Cache<T> {
 
 }
 
-export { Cache };
+function accessCache<T>(filename: string, config: Partial<CacheConfig> = {}) {
+    return new Cache<T>(filename, config);
+}
+
+export { accessCache };

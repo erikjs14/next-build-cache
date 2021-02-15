@@ -10,9 +10,9 @@
   },
   "keywords": [
     "cache",
-    "file",
-    "cache",
-    "nextjs"
+    "file-cache",
+    "nextjs",
+    "build-cache"
   ],
   "author": "Erik Schake",
   "license": "ISC",

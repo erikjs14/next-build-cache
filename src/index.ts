@@ -1,1 +1,1 @@
-export { Cache as default } from './cache';
+export { accessCache } from './cache';

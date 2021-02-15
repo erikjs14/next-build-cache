@@ -23,16 +23,16 @@ $ yarn next-build-cache
 ## Usage
 
 ```javascript
-import Cache from 'next-build-cache';
+import { accessCache } from 'next-build-cache';
 
-// Create a new cache instance using the file 'build.cache'
-const BuildCache = new Cache('build.cache');
+// Access the cache using the file 'build.cache'
+const cache = accessCache('build.cache');
 
 // save a key-value pair with a specified time to live in ms
-BuildCache.put('mykey', 'myvalue', 1000);
+cache.put('mykey', 'myvalue', 1000);
 
 // get the value of a key
-BuildCache.get('mykey');
+cache.get('mykey');
 ```
 
 ## License
