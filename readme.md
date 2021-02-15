@@ -29,10 +29,10 @@ import { accessCache } from 'next-build-cache';
 const cache = accessCache('build.cache');
 
 // save a key-value pair with a specified time to live in ms
-cache.put('mykey', 'myvalue', 1000);
+await cache.put('mykey', 'myvalue', 1000);
 
 // get the value of a key
-cache.get('mykey');
+await cache.get('mykey');
 ```
 
 ## License
