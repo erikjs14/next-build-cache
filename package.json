@@ -1,11 +1,11 @@
 {
   "name": "next-build-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ultra simple file system based caching built for the next.js build process.",
   "main": "lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "files": [
-      "lib/"
+    "lib/"
   ],
   "types": "lib/cjs",
   "scripts": {
