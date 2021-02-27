@@ -1,6 +1,6 @@
 {
   "name": "next-build-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ultra simple file system based caching built for the next.js build process.",
   "main": "lib/index.js",
   "files": [
