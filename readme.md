@@ -17,22 +17,25 @@ $ npm i next-build-cache
 Using yarn
 
 ```bash
-$ yarn next-build-cache
+$ yarn add next-build-cache
 ```
 
 ## Usage
 
 ```javascript
+// using es modules 
 import { accessCache } from 'next-build-cache';
+// using commonjs
+const { accessCache } = require('next-build-cache');
 
-// Access the cache using the file 'build.cache'
+// access the cache using the file 'build.cache'
 const cache = accessCache('build.cache');
 
 // save a key-value pair with a specified time to live in ms
 await cache.put('mykey', 'myvalue', 1000);
 
 // get the value of a key
-await cache.get('mykey');
+const value = await cache.get('mykey');
 ```
 
 ## License
